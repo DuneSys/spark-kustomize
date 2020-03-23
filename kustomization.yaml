@@ -1,3 +1,5 @@
 # Spark Kustomize configuration
 resources:
 - ./namespace.yaml
+- ./spark-service-account.yaml
+- ./spark-cluster-role-binding.yaml
